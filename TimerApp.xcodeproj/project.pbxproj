@@ -13,6 +13,8 @@
 		841E41F7202605E000A1B95C /* TimerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 841E41F5202605E000A1B95C /* TimerApp.xcdatamodeld */; };
 		841E41F9202605E000A1B95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841E41F8202605E000A1B95C /* Assets.xcassets */; };
 		841E41FC202605E000A1B95C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841E41FA202605E000A1B95C /* LaunchScreen.storyboard */; };
+		841E42042026061600A1B95C /* MyVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E42032026061600A1B95C /* MyVIew.swift */; };
+		841E42082026124600A1B95C /* MyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E42072026124600A1B95C /* MyButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		841E41F8202605E000A1B95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841E41FB202605E000A1B95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841E41FD202605E000A1B95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841E42032026061600A1B95C /* MyVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVIew.swift; sourceTree = "<group>"; };
+		841E42072026124600A1B95C /* MyButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				841E41EE202605E000A1B95C /* AppDelegate.swift */,
 				841E41F0202605E000A1B95C /* ViewController.swift */,
 				841E41F2202605E000A1B95C /* Main.storyboard */,
+				841E42072026124600A1B95C /* MyButtonView.swift */,
+				841E42032026061600A1B95C /* MyVIew.swift */,
 				841E41F8202605E000A1B95C /* Assets.xcassets */,
 				841E41FA202605E000A1B95C /* LaunchScreen.storyboard */,
 				841E41FD202605E000A1B95C /* Info.plist */,
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841E42042026061600A1B95C /* MyVIew.swift in Sources */,
 				841E41F1202605E000A1B95C /* ViewController.swift in Sources */,
 				841E41F7202605E000A1B95C /* TimerApp.xcdatamodeld in Sources */,
 				841E41EF202605E000A1B95C /* AppDelegate.swift in Sources */,
+				841E42082026124600A1B95C /* MyButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9U29MYCYLR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TimerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.signup.abdo.TimerApp;
@@ -294,7 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9U29MYCYLR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TimerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.signup.abdo.TimerApp;

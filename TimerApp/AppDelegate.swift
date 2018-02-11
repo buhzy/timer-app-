@@ -91,3 +91,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+let AppDel = UIApplication.shared.delegate as! AppDelegate
+   // we created this outside to use it in a viewcontroller file
+let context = AppDel.persistentContainer.viewContext
+
+
+
